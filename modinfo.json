@@ -1,0 +1,33 @@
+{
+    "context": "client",
+    "identifier": "com.pa.mauru.mAdvancedSelect",
+    "display_name": "Advanced Unit Selection",
+    "description": "More options/filters for unit selection",
+    "author": "Mauru",
+    "version": "0.1",
+    "signature": "not yet implemented",
+    "priority": 10,
+    "enabled": true,
+    "id": "mAdvancedSelect",
+    "forum": "https://forums.uberent.com/threads/rel-wip-reventhandler-a-pa-engine-process-event-framework.57858/",
+    "category": [
+        "framework"
+    ],
+    "scenes": {
+        "settings": [
+            "coui://ui/mods/mAdvancedSelect/mAdvancedSelect_settings.js"
+        ],
+        "live_game": [
+            "coui://ui/mods/mAdvancedSelect/mAdvancedSelect_live.js"
+        ],
+        "global_mod_list": [
+            "coui://ui/mods/mAdvancedSelect/mAdvancedSelect.js",
+            "coui://ui/mods/mAdvancedSelect/mAdvancedSelect_global.js"
+        ]
+    },
+    "date": "2014/03/13",
+    "build": "62168",
+    "requires": [
+        "mEventHandler"
+    ]
+}
